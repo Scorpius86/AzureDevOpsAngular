@@ -10,7 +10,7 @@ export class FetchDataComponent {
 
   public products: Product[]; 
   //private productUrl = "https://localhost:44340/api/products";
-  private productUrl = "http://azuredevopsangularservices.azurewebsites.net/api/products";
+  private productUrl = "https://azuredevopsangularservices.azurewebsites.net/api/products";
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
     //http.get<WeatherForecast[]>(baseUrl + 'weatherforecast').subscribe(result => {
